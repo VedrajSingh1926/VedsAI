@@ -1,19 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import React from 'react'
 import Navbar from './Components/Navbar'
+import Sidebar from './Components/Sidebar'
 import Hero from './Components/Hero'
-import Footer from './Components/Footer'
 
 function App() {
-    return (
-    <>
+  return (
+    <div className="flex flex-col h-screen overflow-hidden bg-[#f8f9fa]">
+      
       <Navbar />
-      <Hero />
-      <Footer />
-    </>
+      
+     
+      <div className="flex flex-1 w-full overflow-hidden">
+        <Sidebar />
+        <main className="flex-1 overflow-y-auto">
+          <Hero />
+        </main>
+      </div>
+    </div>
   )
 }
 
