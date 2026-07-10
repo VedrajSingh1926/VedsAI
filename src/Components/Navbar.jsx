@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <div className="bg-[#2a2a40] text-[#DEB887] flex justify-between items-center px-8 py-4 relative z-50">
         <div className="flex items-center gap-4">
-          <img src="./Logo.png" alt="Logo" className='size-12'/>
+          <img src="./Logo.png" alt="Logo" className='size-18'/>
           <div className="text-4xl font-bold">Veds</div> 
         </div>
         
