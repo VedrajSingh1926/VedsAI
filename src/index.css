@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+.btn1 {
+    @apply bg-[#EADBC8] text-sm text-[#4A3E3D] font-semibold p-3 rounded-lg border border-[#DAC0A3] cursor-pointer hover:bg-[#F5F5F5] transition-colors;
+}
+
+.btn2 {
+    @apply bg-[#2a2a40] text-sm text-[#DEB887] font-semibold p-3 rounded-lg cursor-pointer hover:opacity-90 transition-opacity;
+}
+
+
+.in {
+    @apply w-full px-4 py-2 border border-[#E6DFD5] rounded-lg bg-[#FFFDFB] shadow-sm text-[#4A3E3D] focus:outline-none focus:border-[#DAC0A3];
+}
+
+
+.lb {
+    @apply block text-lg font-semibold text-[#5c4d4c] mb-1; 
+}
