@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Forgetpass from './Forgetpass'
+import Forgetpass from './ForgotPassword'
 
 const Login = () => {
     const [show, setShow] = useState(true)
