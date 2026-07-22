@@ -3,8 +3,8 @@ import React from 'react'
 const Forgetpass = ({ onBackToLogin }) => {
   return (
     <div className='p-6 space-y-4'>
-      <h2 className='text-center text-3xl font-bold text-[#2a2a40]'>Reset Password</h2>
-      <p className='text-center text-sm text-[#4A3E3D]'>Answer the same security question from signup to reset your password.</p>
+      <h2 className='text-center text-3xl font-bold text-[#2C3945]'>Reset Password</h2>
+      <p className='text-center text-sm text-[#547A95]'>Answer the same security question from signup to reset your password.</p>
 
       <div>
         <label htmlFor='resetEmail' className='lb'>Email</label>
@@ -37,10 +37,10 @@ const Forgetpass = ({ onBackToLogin }) => {
       </div>
 
       <div className='flex flex-col gap-3 pt-2'>
-        <button type='button' className='bg-[#2a2a40] text-[#DEB887] font-bold p-3 rounded-lg shadow-md w-full cursor-pointer hover:opacity-90 transition-opacity'>
+        <button type='button' className='bg-[#2C3945] text-[#E8EDF2] font-bold p-3 rounded-lg shadow-md w-full cursor-pointer hover:bg-[#547A95] transition-colors'>
           Reset Password
         </button>
-        <button type='button' onClick={onBackToLogin} className='text-[#2a2a40] font-medium hover:text-[#DEB887] hover:underline'>
+        <button type='button' onClick={onBackToLogin} className='text-[#2C3945] font-medium hover:text-[#C2A56D] hover:underline'>
           Back to Login
         </button>
       </div>

@@ -25,10 +25,10 @@ const Login = () => {
     }
 
     return (
-        <div className='border border-[#E6DFD5] bg-[#FAF6F0] text-[#4A3E3D] mt-12 md:mt-30 m-auto w-11/12 max-w-md rounded-lg shadow-xl min-h-500px pb-6'>
+        <div className='border border-[#547A95]/20 bg-[#F8FBFD] text-[#2C3945] mt-12 md:mt-30 m-auto w-11/12 max-w-md rounded-lg shadow-[0_10px_30px_rgba(44,57,69,0.12)] min-h-500px pb-6'>
             {!forgotPassword ? (
                 <>
-                    <h1 className='text-center text-4xl md:text-5xl font-bold mt-8 text-[#2a2a40]'>
+                    <h1 className='text-center text-4xl md:text-5xl font-bold mt-8 text-[#2C3945]'>
                         {show ? 'Login Form' : 'Signup Form'}
                     </h1>
 
@@ -71,7 +71,7 @@ const Login = () => {
                             </div>
 
                             <div className='flex justify-center pt-4'>
-                                <input type='button' value='Submit' className='bg-[#2a2a40] text-[#DEB887] font-bold p-3 rounded-lg shadow-md w-full cursor-pointer hover:opacity-90 transition-opacity' />
+                                <input type='button' value='Submit' className='bg-[#2C3945] text-[#E8EDF2] font-bold p-3 rounded-lg shadow-md w-full cursor-pointer hover:bg-[#547A95] transition-colors' />
                             </div>
                         </div>
                     )}
@@ -90,13 +90,13 @@ const Login = () => {
                                 <button
                                     type='button'
                                     onClick={handleForgotPassword}
-                                    className='text-[#2a2a40] hover:text-[#DEB887] hover:underline'
+                                    className='text-[#547A95] hover:text-[#C2A56D] hover:underline'
                                 >
                                     Forgot Password?
                                 </button>
                             </div>
                             <div className='flex justify-center pt-4'>
-                                <input type='button' value='Submit' className='bg-[#2a2a40] text-[#DEB887] font-bold p-3 rounded-lg shadow-md w-full cursor-pointer hover:opacity-90 transition-opacity' />
+                                <input type='button' value='Submit' className='bg-[#2C3945] text-[#E8EDF2] font-bold p-3 rounded-lg shadow-md w-full cursor-pointer hover:bg-[#547A95] transition-colors' />
                             </div>
                         </div>
                     )}

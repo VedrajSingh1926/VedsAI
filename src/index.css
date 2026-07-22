@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+:root {
+  --bg: #E8EDF2;
+  --surface: #F8FBFD;
+  --primary: #2C3945;
+  --accent: #547A95;
+  --gold: #C2A56D;
+  --text: #2C3945;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
 .btn1 {
     @apply bg-[#EADBC8] text-sm text-[#4A3E3D] font-semibold p-3 rounded-lg border border-[#DAC0A3] cursor-pointer hover:bg-[#F5F5F5] transition-colors;
 }

@@ -10,19 +10,19 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="flex flex-col h-screen overflow-hidden bg-[#FAF6F0]">
+      <div className="flex flex-col h-screen overflow-hidden bg-[#E8EDF2]">
         <Navbar />
         <Routes>
           <Route path="/" element={
-            <div className="flex flex-1 w-full overflow-hidden relative">
+            <div className="flex flex-1 w-full overflow-hidden relative bg-[#E8EDF2]">
               <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
-              <main className="flex-1 overflow-y-auto">
+              <main className="flex-1 overflow-y-auto bg-[#E8EDF2]">
                 <Hero toggleSidebar={() => setIsSidebarOpen(prev => !prev)} />
               </main>
             </div>
           } />
           <Route path="/login" element={
-            <main className="flex-1 overflow-y-auto bg-[#FAF6F0]">
+            <main className="flex-1 overflow-y-auto bg-[#E8EDF2]">
               <Login />
             </main>
           } />
